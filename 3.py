@@ -1,0 +1,15 @@
+name = "jimish\n"
+print(name[0:5:2])
+print(len(name))
+print(name.strip("j"))
+print(name.rstrip("\n "))
+print(name[:-1])
+name = "jimish"
+print(name.split("i"))
+print(name.find("i"))
+print(name.count("i"))
+print(name.upper())
+print(name.lower())
+print(name.replace("i","o"))
+print(name.center(50))
+print(name.endswith("h"))
